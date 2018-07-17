@@ -1,0 +1,150 @@
+.m-t-30 {
+  margin-top: 30px;
+}
+#category li {
+  float: left;
+  list-style: outside none none;
+  width: 33.333%;
+}
+#category .dropdown-item {
+  clear: none;
+}
+.top-apps .card-block a {
+  color: #383838 !important;
+}
+.top-apps .card-block a:hover {
+  color: #737373 !important;
+}
+.top-apps .card-img-holder:hover {
+  background: #cecece;
+}
+.categories.breadcrumb-menu .category_list {
+  min-width: 580px;
+}
+.b-lazy {
+  transition: opacity 500ms ease-in-out;
+  max-width: 100%;
+  opacity: 0;
+}
+.b-lazy.b-loaded {
+  opacity: 1;
+}
+.app-detail .app-image img {
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 20px;
+}
+.rating {
+  text-align: center;
+}
+.rating-num {
+  color: #333333;
+  font-size: 72px;
+  font-weight: 100;
+  line-height: 1em;
+}
+.rating-stars {
+  font-size: 20px;
+  color: #E3E3E3;
+  margin-bottom: .5em;
+}
+.rating-stars .active {
+  color: #737373;
+}
+.rating-users {
+  font-size: 14px;
+}
+.histo {
+  font-size: 13px;
+}
+.histo-star {
+  float: left;
+  padding: 3px;
+}
+.histo-rate {
+  width: 100%;
+  display: block;
+  clear: both;
+}
+.bar-block {
+  margin-left: 5px;
+  color: black;
+  display: block;
+  float: left;
+  width: 75%;
+  position: relative;
+}
+.bar {
+  padding: 4px;
+  display: block;
+}
+#bar-five {
+  width: 0;
+  background-color: #9FC05A;
+}
+#bar-four {
+  width: 0;
+  background-color: #ADD633;
+}
+#bar-three {
+  width: 0;
+  background-color: #FFD834;
+}
+#bar-two {
+  width: 0;
+  background-color: #FFB234;
+}
+#bar-one {
+  width: 0;
+  background-color: #FF8B5A;
+}
+#screenshots .item {
+  background: #ececec;
+  padding: 10px 10px;
+  margin: 5px;
+  color: #FFF;
+  border-radius: 3px;
+  text-align: center;
+}
+.owl-theme .owl-nav {
+  /*default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  transition: all .3s ease;
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+#screenshots.owl-theme {
+  position: relative;
+}
+#screenshots.owl-theme .owl-next,
+#screenshots.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -40px;
+  position: absolute;
+  top: 50%;
+}
+#screenshots.owl-theme .owl-prev {
+  left: 10px;
+}
+#screenshots.owl-theme .owl-next {
+  right: 10px;
+}
+.breadcrumb-menu {
+  top: 0.5rem;
+}
+.breadcrumb-item {
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .top-apps .col-md-2 {
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .breadcrumb-item {
+    width: 100%;
+  }
+}
